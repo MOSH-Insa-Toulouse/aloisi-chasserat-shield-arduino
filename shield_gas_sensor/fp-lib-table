@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EmpreintesCapGaz)(type KiCad)(uri ${KIPRJMOD}/EmpreintesCapGaz.pretty)(options "")(descr ""))
+)

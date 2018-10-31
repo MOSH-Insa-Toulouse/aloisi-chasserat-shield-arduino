@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Library_cap_gaz)(type Legacy)(uri U:/5e_annee/KiCad/aloisi-chasserat-shield-arduino/shield_gas_sensor/Library_cap_gaz.lib)(options "")(descr ""))
+)
