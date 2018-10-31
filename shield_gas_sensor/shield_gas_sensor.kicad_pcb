@@ -6,7 +6,7 @@
     (tracks 0)
     (zones 0)
     (modules 20)
-    (nets 41)
+    (nets 43)
   )
 
   (page A4)
@@ -135,6 +135,8 @@
   (net 38 "Net-(U1-Pad1)")
   (net 39 "Net-(U1-Pad5)")
   (net 40 "Net-(U1-Pad8)")
+  (net 41 "Net-(P2-Pad5)")
+  (net 42 "Net-(P2-Pad6)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -174,6 +176,8 @@
     (add_net "Net-(C4-Pad1)")
     (add_net "Net-(C4-Pad2)")
     (add_net "Net-(P1-Pad1)")
+    (add_net "Net-(P2-Pad5)")
+    (add_net "Net-(P2-Pad6)")
     (add_net "Net-(P5-Pad1)")
     (add_net "Net-(P6-Pad1)")
     (add_net "Net-(P7-Pad1)")
@@ -261,9 +265,9 @@
     (pad 4 thru_hole oval (at 7.62 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 9 /A3))
     (pad 5 thru_hole oval (at 10.16 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 11 "/A4(SDA)"))
+      (net 41 "Net-(P2-Pad5)"))
     (pad 6 thru_hole oval (at 12.7 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 12 "/A5(SCL)"))
+      (net 42 "Net-(P2-Pad6)"))
     (model ${KIPRJMOD}/Socket_Arduino_Uno.3dshapes/Socket_header_Arduino_1x06.wrl
       (offset (xyz 6.349999904632568 0 0))
       (scale (xyz 1 1 1))
