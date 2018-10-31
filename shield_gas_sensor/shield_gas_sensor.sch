@@ -26,10 +26,6 @@ Text Label 8900 2700 0    60   ~ 0
 A2
 Text Label 8900 2800 0    60   ~ 0
 A3
-Text Label 8900 2900 0    60   ~ 0
-A4(SDA)
-Text Label 8900 3000 0    60   ~ 0
-A5(SCL)
 Text Label 10550 3000 0    60   ~ 0
 0(Rx)
 Text Label 10550 2800 0    60   ~ 0
@@ -229,10 +225,6 @@ Wire Wire Line
 	9400 2700 8900 2700
 Wire Wire Line
 	9400 2800 8900 2800
-Wire Wire Line
-	9400 2900 8900 2900
-Wire Wire Line
-	9400 3000 8900 3000
 $Comp
 L Connector_Generic:Conn_01x10 P3
 U 1 1 56D721E0
@@ -680,4 +672,8 @@ Wire Wire Line
 NoConn ~ 8650 1800
 Text Label 5350 2850 2    50   ~ 0
 A0
+NoConn ~ 9400 2900
+NoConn ~ 9400 3000
+NoConn ~ 10550 1200
+NoConn ~ 10550 1300
 $EndSCHEMATC
