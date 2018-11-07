@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:shield_gas_sensor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -27,11 +26,11 @@ A2
 Text Label 8900 2800 0    60   ~ 0
 A3
 Text Label 10550 3000 0    60   ~ 0
-0(Rx)
+Rx
 Text Label 10550 2800 0    60   ~ 0
 2
 Text Label 10550 2900 0    60   ~ 0
-1(Tx)
+Tx
 Text Label 10550 2700 0    60   ~ 0
 3(**)
 Text Label 10550 2600 0    60   ~ 0
@@ -612,15 +611,12 @@ F 3 "" H 4150 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 2000 4150 1850
-NoConn ~ 10550 3000
-NoConn ~ 10550 2900
 NoConn ~ 10550 2800
 NoConn ~ 10550 2700
 NoConn ~ 8900 2800
 NoConn ~ 8900 2700
 NoConn ~ 8900 2600
 NoConn ~ 9350 1450
-NoConn ~ 8950 1450
 NoConn ~ 10550 1400
 NoConn ~ 10550 2300
 NoConn ~ 10550 2400
@@ -669,11 +665,63 @@ F 3 "" H 2100 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 1900 3050 1950
-NoConn ~ 8650 1800
 Text Label 5350 2850 2    50   ~ 0
 A0
 NoConn ~ 9400 2900
 NoConn ~ 9400 3000
 NoConn ~ 10550 1200
 NoConn ~ 10550 1300
+$Comp
+L RN2483_Breakout:RN2483_Breakout U2
+U 1 1 5BE31D58
+P 6850 4650
+F 0 "U2" H 6300 5400 50  0000 L CNN
+F 1 "RN2483_Breakout" H 6650 4950 50  0000 L CNN
+F 2 "" H 6850 4650 50  0001 C CNN
+F 3 "" H 6850 4650 50  0001 C CNN
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5BE31FD0
+P 7550 4900
+F 0 "#PWR0112" H 7550 4650 50  0001 C CNN
+F 1 "GND" H 7555 4727 50  0000 C CNN
+F 2 "" H 7550 4900 50  0001 C CNN
+F 3 "" H 7550 4900 50  0001 C CNN
+	1    7550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4900 7350 5200
+Wire Wire Line
+	7200 4900 7200 5100
+Wire Wire Line
+	6950 4900 6950 5150
+Text Label 6950 5150 1    50   ~ 0
+Reset
+Wire Wire Line
+	6300 4900 6300 5300
+Text Label 6300 5300 1    50   ~ 0
+Rx
+Wire Wire Line
+	6450 4900 6450 5250
+Text Label 6450 5250 1    50   ~ 0
+Tx
+NoConn ~ 6600 4900
+NoConn ~ 6750 4900
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 5BE4574E
+P 7200 5100
+F 0 "#PWR0113" H 7200 4950 50  0001 C CNN
+F 1 "+3V3" H 7215 5273 50  0000 C CNN
+F 2 "" H 7200 5100 50  0001 C CNN
+F 3 "" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8950 1450
+NoConn ~ 7350 5200
 $EndSCHEMATC

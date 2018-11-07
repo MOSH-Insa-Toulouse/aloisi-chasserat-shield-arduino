@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Library_cap_gaz)(type Legacy)(uri U:/5e_annee/KiCad/aloisi-chasserat-shield-arduino/shield_gas_sensor/Library_cap_gaz.lib)(options "")(descr ""))
+  (lib (name Library_cap_gaz)(type Legacy)(uri D:/Users/aaloisi/Documents/MOSH/aloisi-chasserat-shield-arduino/shield_gas_sensor//Library_cap_gaz.lib)(options "")(descr ""))
+  (lib (name RN2483_Breakout)(type Legacy)(uri D:/Users/aaloisi/Documents/MOSH/aloisi-chasserat-shield-arduino/shield_gas_sensor/RN2483_Breakout.lib)(options "")(descr ""))
 )
