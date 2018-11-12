@@ -1448,7 +1448,7 @@
   (segment (start 202.438 92.075) (end 188.468 92.075) (width 0.8) (layer F.Cu) (net 42))
   (segment (start 204.978 89.535) (end 202.438 92.075) (width 0.8) (layer F.Cu) (net 42))
 
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5BF596B3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

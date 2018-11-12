@@ -28,6 +28,13 @@ Ce projet KiCad contient le code source et les fichiers de conception du shield,
 -   La partie schématique, décrivant le circuit électronique implémenté (composants, routage des pins)    
 -   La partie layout, décrivant la forme de la carte, l’emplacement des différents éléments sur celle-ci et la trajectoire des pistes de routage.
 
-# Résultat du projet
+# Résultat obtenu
 
-![Our PCB](./3D-shield.png)
+![Our Schematic](./Schematic.png)
+![Our PCB Conception](./PCB.png)
+![Our PCB in 3D](./3D-shield.png)
+
+# Remarques, choix de conception et points à améliorer
+
+- La puce LoRa est trop grande pour être incluse sur un shield de la même taille que l'Arduino UNO. Nous avons donc transformé la forme du contour du shield en un rectangle plus grand que celui-ci.
+- Au niveau du PCB, des avertissements de type "Pad près d'un pad" sont soulevés au moment de la vérification, car nous avons utilisé des modèles de résistances et de capacités choisis arbitrairement parmi les composants traversants, qui se sont avérés plus petits que ceux que nous utiliserons en réalité, et donc les marges de pistes que nous avons choisis pour l'impression du PCB réel se chevauchent. Pour changer cela, il faudrait choisir d'autres empreintes pour ces composants, ou réduire la taille des pads (ce qui n'est pas possible compte tenu des contraintes de fabrication qui nous sont imposées).
