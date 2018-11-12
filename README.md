@@ -27,3 +27,7 @@ Ce projet KiCad contient le code source et les fichiers de conception du shield,
 
 -   La partie schématique, décrivant le circuit électronique implémenté (composants, routage des pins)    
 -   La partie layout, décrivant la forme de la carte, l’emplacement des différents éléments sur celle-ci et la trajectoire des pistes de routage.
+
+# Résultat du projet
+
+![Our PCB](./3D-shield.png)
