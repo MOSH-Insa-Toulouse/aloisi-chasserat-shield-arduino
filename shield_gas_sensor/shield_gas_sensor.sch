@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Gas sensor shield "
 Date "lun. 30 mars 2015"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "1.0"
+Comp "INSA"
+Comment1 "Aloïsi Axelle"
+Comment2 "Chasserat Laurent"
 Comment3 ""
 Comment4 ""
 $EndDescr
