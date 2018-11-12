@@ -30,8 +30,11 @@ Ce projet KiCad contient le code source et les fichiers de conception du shield,
 
 # Résultat obtenu
 
+Conception du schematic :
 ![Our Schematic](./Schematic.png)
+Conception du layout :
 ![Our PCB Conception](./PCB.png)
+Rendu 3D :
 ![Our PCB in 3D](./3D-shield.png)
 
 # Remarques, choix de conception et points à améliorer
