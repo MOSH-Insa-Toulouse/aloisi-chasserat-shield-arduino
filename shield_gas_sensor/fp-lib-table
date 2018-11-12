@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name EmpreintesCapGaz)(type KiCad)(uri ${KIPRJMOD}/EmpreintesCapGaz.pretty)(options "")(descr ""))
+  (lib (name MesEmpreinte)(type KiCad)(uri ${KIPRJMOD}/mes_empreintes.pretty)(options "")(descr ""))
 )
