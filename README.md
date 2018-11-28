@@ -46,7 +46,7 @@ Rendu 3D :
 - Nous avons choisi de positionner notre Software Serial sur les Pins 7 et 8 pour répliquer la fonction de la communication série sur d'autres broches numériques de la carte.
 - Nous avons transformé la forme du contour du shield en un rectangle plus grand que l'Arduino UNO pour faciliter le routage et l'inclusion de la puce LoRa.
 - Au niveau du PCB, des avertissements de type "Pad près d'un pad" sont soulevés au moment de la vérification, car nous avons utilisé des modèles de résistances et de capacités choisis arbitrairement parmi les composants traversants, qui se sont avérés plus petits que ceux que nous utiliserons en réalité, et donc les marges de pistes que nous avons choisis pour l'impression du PCB réel se chevauchent. Pour changer cela, il faudrait choisir d'autres empreintes pour ces composants, ou réduire la taille des pads (ce qui n'est pas possible compte tenu des contraintes de fabrication qui nous sont imposées).
-- Nous avons choisi d'implémenter toute la carte sur une seule couche de cuivre pour rendre possible sa fabrication à l'INSA. Les pistes sont sur la partie Bottom qui est aussi le plan de masse et les composants sont positionnés sur la partie top.
+- Nous avons choisi d'implémenter toute la carte sur une seule couche de cuivre pour rendre possible sa fabrication à l'INSA. Les pistes sont sur la partie "Bottom" qui est aussi le plan de masse et les composants sont positionnés sur la partie "Top".
 
 # Pistes d'amélioration
 
